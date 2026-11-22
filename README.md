@@ -1,5 +1,9 @@
 # rungs
 
+> **Retired.** No Workhorse project depends on rungs; see
+> [wrkhse/workhorse#56](https://github.com/wrkhse/workhorse/issues/56). The
+> code and the `v0.1.0` tag stay available as they are.
+
 rungs decides which steps of a plan run next. Each step waits on the outcomes of
 earlier steps, and the program reports back how each one ended. rungs has no
 I/O, no dependencies and no allocation (`no_std`).
